@@ -14,7 +14,9 @@ Header identifies
 
 ## Special Blocks
 ### Index
-These blocks map an external index to a block index and offset.  Among other things this makes compaction easy.
+These blocks map an external index to a block index and offset.  Among other things this makes compaction easy.  This is a specxal case of B* Index
+### B* Tree Index
+Each block contains N index_value, pointer pairs and a pointer to parent and sibling blocks.  This allows indexing of data in the database. 
 ### Class Descriptions
 Description of structured data instances and their attributes, and pointer to first instance block
 ### Tag Description
