@@ -18,13 +18,13 @@ These blocks map an external index to a block index and offset.  Among other thi
 ### B* Tree Index
 Each block contains N index_value, pointer pairs and a pointer to parent and sibling blocks.  This allows indexing of data in the database. 
 ### Class Descriptions
-Description of structured data instances and their attributes, and pointer to first instance block
+Description of structured data instances and their attributes, and pointer to first instance block. By convention block #1 is first Class Description block.
 ### Tag Description
-Tag instances with their names and ids
+Tag instances with their names and ids.  Block #2 is first Tag description block.
 ### Group Description
-Group instances with their containing groups, names and ids
+Group instances with their containing groups, names and ids.  Block #3 is first Group description block
 ### Relations Description
-Relationships with their role, reverse role, restrictions on subject and object
+Relationships with their role, reverse role, restrictions on subject and object. Block #4 is first Relationship Description Block.
 ### Tagged
 pairs of tag_id, object_id
 ### Grouped
