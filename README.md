@@ -32,3 +32,6 @@ triples of subject_id, role_id, object_id
 Alternately somewhat redundant pairs of <role_id, subject_or_object_id>, {s: s is related by role_id to sobject_or_object_id
 ### Instance
 Block contains instances of a single class
+### Variable Length
+This type of block stores variable length data where a single data item may span multiple blocks.  There will be subtypes for specialized cases like mimetypes such as video or audio, strings/bytes, list[<type>] etc. 
+  
