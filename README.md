@@ -1,5 +1,10 @@
 # blockbase
 The idea is to have a block oriented database in UOP style - that is it includes UOP style database metadata.
+
+A block oriented database of this kind can exist in memory or backed by a file system or backed by various types of cloud artifacts such as S3 or other object store.
+
+An interest possibility of any memory casche containing some subpart of larger block database.
+
 ## General Block Characteristics
 ### Header
 Header identifies
